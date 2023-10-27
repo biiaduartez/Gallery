@@ -14,9 +14,61 @@
             Love Gallery
         </h1>
     </header>
+
+
+    <main>
+        <div class="galeria">
+            <div class="fotos">
+                <span class="foto__info">
+                    Primeira  vez na sua tia hehe &#128513;
+
+                </span>
+            </div>
+            <div class="fotos">
+                <span class="foto__info">
+                    Ainda na sua tia 
+                </span>
+            </div>
+            <div class="fotos">
+                <span class="foto__info">
+                   Pós piscininha
+                </span>
+            </div>
+            <div class="fotos">
+                <span class="foto__info">
+                    filmin do Batman &#129415;
+
+                </span>
+            </div>
+            <div class="fotos">
+                <span class="foto__info">
+                    1x no Cinemark
+                </span>
+            </div>
+            <div class="fotos">
+                <span class="foto__info">
+                    evento caótico de anime
+                </span>
+            </div>
+        </div>
+    </main>
+
+
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;1,300&family=Satisfy&display=swap');
@@ -49,15 +101,16 @@
 
     h1 {
         display: flex;
-        margin-top:45px;
+        margin-top: 45px;
         font-size: 3.5em;
         justify-content: center;
         align-items: center;
         cursor: default;
         font-family: 'Satisfy', cursive;
         color: #ffffff;
-        text-shadow: 2px 2px 20px #ffA500; 
+        text-shadow: 2px 2px 20px #ffA500;
     }
+
 
     .galeria {
         width: 100%;
@@ -68,6 +121,8 @@
             "f1 f1 f1 f1 f1 f4 f4 f4 f5 f5 f5"
             "f6 f6 f6 f7 f7 f7 f8 f8 f8 f8 f8";
         gap: 12px;
+        margin-top: 30px;
+
     }
 
     .fotos {
@@ -85,72 +140,51 @@
 
     .fotos:nth-child(1) {
         grid-area: f1;
-        background-image: url(./img/beijinho.jpg);
+        background-image: url(https://scontent-gru2-2.xx.fbcdn.net/v/t39.30808-6/297641340_777221613404186_6456792314582815602_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE2VYzm3gih4l2VGJPOMqwrueaXFO24lMm55pcU7biUyZRNVMs0XdAhZAW0lXhlz6yzRmYKgU2S75vMR-XloAhV&_nc_ohc=ImAfA5GnORUAX-IWWOu&_nc_ht=scontent-gru2-2.xx&oh=00_AfD75B5Zt03Iq-sJkLTwVG2takxKVucjOnOa8nN0ABhuIQ&oe=65417C42);
         background-size: cover;
         background-position: center;
     }
 
     .fotos:nth-child(2) {
         grid-area: f2;
-        background-image: url(./img/primeiro-date.jpg);
+        background-image: url(https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/297650848_777221610070853_1997997878691107043_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHnOZsUIQKEjwomsrpcqh_dgXtrD4PYqT6Be2sPg9ipPqK6CqJIghqR5bv9VEwWVLpFA-RCjC-s49xdcxX5TQwS&_nc_ohc=z6O7anBrnAkAX87YQ5_&_nc_ht=scontent-gru1-1.xx&oh=00_AfC1wnOWlLMsy1dqNKE1DMk4Qt4SuIoNsv0Ece73XR7_nA&oe=65401EA4);
         background-size: cover;
         background-position: center;
     }
 
     .fotos:nth-child(3) {
         grid-area: f3;
-        background-image: url(./img/dia19-1.jpg);
+        background-image: url(https://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/274352588_673915153734833_5932388578578840559_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHmdYFR_phfErsCOLogrt4-2WIi1-bRbG7ZYiLX5tFsbko7Ou3Vy0XB-HF4Q2LQxo9CwRarbfKWaxidJho-CWd_&_nc_ohc=jYNigCF-ewUAX-joo7C&_nc_ht=scontent-gru2-1.xx&oh=00_AfCKgJK5-bA0_jBNzTApPjpCp3DifMxoYmwqjCGnbqkXsg&oe=653FF086);
         background-size: cover;
         background-position: center;
     }
 
     .fotos:nth-child(4) {
         grid-area: f4;
-        background-image: url(./img/coracao.jpg);
+        background-image: url(https://scontent-gru1-2.xx.fbcdn.net/v/t39.30808-6/275678147_685837609209254_8728686836073809120_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEbLgPbxaHiM518w7DXm0ouMagWQKgtqlQxqBZAqC2qVPUR3WYNjsbkm4D2I36OWvcP6CRtrCP-YHBg939aHGSA&_nc_ohc=E3iZkCmNtEMAX-El8FD&_nc_ht=scontent-gru1-2.xx&oh=00_AfC_C6eL96Vo9nTehajs8cXutsvcGrak8Ao42BstgCNUog&oe=65412AC5);
         background-size: cover;
         background-position: top;
     }
 
     .fotos:nth-child(5) {
         grid-area: f5;
-        background-image: url(./img/ano-novo.jpg);
+        background-image: url(https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/275780908_685837612542587_7952912198983810013_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEY5Mp8qaPeFdNwCAeoCxc-0tGBWMBpYsjS0YFYwGliyL09GuI1WEkJg1ZlhHM1bLQEx4OO50Mo3sk3kNlnUbeP&_nc_ohc=HfSeaKbiKNcAX9tzvQR&_nc_ht=scontent-gru1-1.xx&oh=00_AfACltfnlnKFkr1anQgPEURrgUPApEEajhimYl2dvZMooQ&oe=653FE6DE);
         background-size: cover;
         background-position: top;
     }
 
     .fotos:nth-child(6) {
         grid-area: f6;
-        background-image: url(./img/pes.jpg);
+        background-image: url(https://scontent-gru2-2.xx.fbcdn.net/v/t39.30808-6/277572384_695079184951763_41876528673758538_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHJaOCXlp3-Z240WUH0Y5ZOub_Icl0zTzS5v8hyXTNPNIREa_yVRVQCvDtNccxL_EZjT9lkennqd_VEyN0lqgHn&_nc_ohc=FOOPH5UAQNsAX90M6fK&_nc_ht=scontent-gru2-2.xx&oh=00_AfABY1FhGL3PERW6Yc-UmQtyP6SFja1lqithYoLGImVsxQ&oe=6540B17B);
         background-size: cover;
         background-position: center;
     }
 
-    #pe {
-        height: 62px;
-    }
-
-    .fotos:nth-child(7) {
-        grid-area: f7;
-        background-image: url(./img/social.jpg);
-        background-size: cover;
-        background-position: top;
-    }
-
-    #social {
-        height: 50px;
-    }
-
-    .fotos:nth-child(8) {
-        grid-area: f8;
-        background-image: url(./img/zoio.jpg);
-        background-size: cover;
-        background-position: center;
-    }
 
     .foto__info {
         position: absolute;
         width: 100%;
-        height: 33px;
+        height: 50px;
         bottom: 0;
         background-color: #0009;
         transform: translateY(100%);
